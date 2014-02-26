@@ -104,7 +104,6 @@ public class PersonalActivity extends FragmentActivity{
 	    mLoadingImg = (ImageView)findViewById(R.id.loading);
 		mLoadingImg.setScaleType(ScaleType.CENTER_INSIDE);
 		
-		Log.d("lyl","test");
 		isDirectIn = getIntent().getBooleanExtra("is_directin", false);
 		
 		   ImageCache.ImageCacheParams cacheParams =
@@ -116,7 +115,7 @@ public class PersonalActivity extends FragmentActivity{
 		 
 		imageFetcher.addImageCache(PersonalActivity.this.getSupportFragmentManager(), cacheParams);
 		imageFetcher.setImageFadeIn(true);
-
+         Log.d("lyl","test");
 		imageFetcher.setLoadingImage(R.drawable.de_avatar);
 		
 		RotateAnimation loadingAnim = new RotateAnimation(0, 360,
