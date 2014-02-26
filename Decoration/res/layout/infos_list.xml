@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+         android:id="@+id/news_list"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/main_decoration_bg">
+    <FrameLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#e1e1e0">
+        
+    <com.gren.util.RecyclingImageView
+        android:id="@+id/decoration_pic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:scaleType="centerCrop"
+        android:src="@null" />
+   <!--   <ImageView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/main_decoration_cover"
+        android:layout_gravity="top"/>-->
+    </FrameLayout>
+     <TextView
+        android:id="@+id/decoration_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp"
+        android:singleLine="false"
+        android:gravity="left"
+        android:textColor="#474747" />
+     <ImageView 
+         android:layout_width="match_parent"
+         android:layout_height="1dp"
+         android:src="#dedede"
+         android:scaleType="centerCrop"
+         android:layout_marginTop="5dp"
+         android:layout_marginBottom="20dp"/>
+     <ImageView 
+         android:layout_width="match_parent"
+         android:layout_height="1dp"
+         android:src="#dedede"
+         android:scaleType="centerCrop"
+         android:layout_marginBottom="12dp"/>
+<RelativeLayout
+       android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    >
+    <TextView
+        android:id="@+id/decoration_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:text="￥3200"
+        android:layout_marginLeft="5dp"
+        android:singleLine="false"
+        android:textColor="#ff3b55" />
+
+    <TextView
+        android:id="@+id/decoration_praise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:text="324"
+        android:layout_marginRight="5dp"
+        android:textColor="#737373" />
+    
+    <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_alignParentTop="true"
+        android:scaleType="centerInside"
+        android:padding="3dp"
+        android:layout_toLeftOf="@id/decoration_praise"
+        android:src="@drawable/praise_icon_click"/>
+</RelativeLayout>
+</LinearLayout>

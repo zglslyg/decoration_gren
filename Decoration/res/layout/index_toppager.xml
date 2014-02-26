@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+     <FrameLayout 
+    android:id="@+id/viewpager_frame"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:layout_marginBottom="8dp"
+    android:paddingBottom="0dp"
+    >
+ 
+  <com.gren.decoration.MyViewPager
+        android:id="@+id/ad_viewPager"
+        android:layout_width="match_parent" 
+        android:layout_height="150dp"
+        android:background="#ffffff" 
+   	 	android:layout_gravity="top"
+    	android:flipInterval="300"
+    	android:persistentDrawingCache="animation"
+        /> 
+  <LinearLayout
+        android:id="@+id/page_pointer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="20dp"
+         >       
+    </LinearLayout>
+</FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/aboutus_bg">
+     <FrameLayout
+        android:id="@+id/top_bg"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/list_top_bg"
+        >
+     <ImageView 
+            android:id="@+id/top_return"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/person_return_selector"/>
+           <TextView
+              android:id="@+id/top_return_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="返回"
+            android:gravity="center_vertical|left"
+            android:textSize="12sp"
+            android:textColor="#ffffff"
+            android:layout_gravity="left"/>
+     <TextView 
+         android:layout_width="wrap_content"
+         android:layout_height="28dp"
+         android:gravity="center"
+         android:text="尼尔斯"
+         android:layout_gravity="center"
+         android:textSize="16sp"
+         android:textColor="#ffffff"
+         />
+    </FrameLayout>
+    <!--<ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/aboutus"
+        />  -->
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView 
+                android:layout_margin="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="    尼尔斯家居以诚信为本，服务至上。致力于打造从设计→装修→选材→家具→家电的整体家居理念。选择了尼尔斯等于选择了省时、省心、省力、省钱！\n    省时-----我们拥有3000㎡集建材、家具、饰品、家电的展厅，您不必再东奔西走，在我们这里可以实现您一站式购齐；\n    省心-----您不必再为选主材、先家具而烦忧，我们能够给您最专业的建议和方案。我们的施工层层监管，您不用再为施工问题而担忧；\n    省力-----我们有专业而且工种齐全的施工队伍，您不必为搬运而费力，也不用为找不到专业的施工人员而发愁；\n    省钱-----我们公司的主材、家具及电器都是我公司自己代理。我们的代理商不是中间商，所以可以为您省去中间环节。因此我们可以保证您能够拿到市场最低价，将您的装修成本降到最低。"
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                android:lineSpacingExtra="8dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

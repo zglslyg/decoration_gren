@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="color_names">
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>White</item>
+        <item>Black</item>
+    </string-array>
+    
+    <string-array name="decoration_class">
+        <item>卫浴</item>
+        <item>地板</item>
+        <item>瓷砖</item>
+        <item>门窗</item>
+        <item>橱柜</item>
+        <item>衣柜</item>
+        <item>吊顶</item>
+        <item>电器</item>
+        <item>涂料</item>
+        <item>壁纸</item>
+        <item>照明</item>
+        <item>家纺</item>
+        <item>家具</item>
+    </string-array>
+
+</resources>
